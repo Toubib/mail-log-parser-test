@@ -1,0 +1,22 @@
+2015-01-16 06:48:55 [10066] 1YC0iF-0002cM-1G DKIM: d=gmail.com s=20120113 c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2015-01-16 06:48:55 [10066] 1YC0iF-0002cM-1G <= info+caf_=support.388425.bf33133744e2b5eb=helpscout.net@someskserver.sk H=mail-wg0-f41.google.com [777.777.82.41] I=[10.0.0.115]:25 P=esmtps X=TLS1.0:RSA_ARCFOUR_SHA1:128 S=6543 id=D2EE5ECA-31337-40E5-ADFQ-9D46017DF107@gmail.com T="Really short!"
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G => tickets <support.388425.bf33133744e2b5eb@helpscout.net> R=file_router T=local_file_delivery QT=0s
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G <support.1.3133731337291522d6@helpscout.net>: rmq_helpscout_delivery transport output:           RMQ IP: localhost
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G => support.1.3133731337291522d6 <support.388425.bf33133744e2b5eb@helpscout.net> R=catch_helpscout T=rmq_helpscout_delivery QT=0s
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G <support.1.3133731337291522d6@helpscout.net>: mongo_helpscout_delivery transport output: Pushed message 1YC0iF-0002cM-1G to Mongo.
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G => support.1.3133731337291522d6 <support.388425.bf33133744e2b5eb@helpscout.net> R=catch_helpscout_mongo T=mongo_helpscout_delivery QT=0s
+2015-01-16 06:48:55 [10136] 1YC0iF-0002cM-1G Completed QT=0s
+2015-01-16 06:49:03 [10088] 1YC0iI-0002ci-ML <= help+caf_=support.344352.55fjw31337ffj322=helpscout.net@testfakeemail.com H=mail-ie0-f179.google.com [777.85.777.179] I=[10.0.0.115]:25 P=esmtps X=TLS1.0:RSA_ARCFOUR_SHA1:128 S=9708 id=31337-EQFFQ-Sl@mon.someplacespecial.com T="Welcome to The Jungle"
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML => tickets <support.344352.55fjw31337ffj322@helpscout.net> R=file_router T=local_file_delivery QT=5s
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML <support.1.3133731337291522d6@helpscout.net>: rmq_helpscout_delivery transport output:           RMQ IP: localhost
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML => support.1.3133731337291522d6 <support.344352.55fjw31337ffj322@helpscout.net> R=catch_helpscout T=rmq_helpscout_delivery QT=5s
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML <support.1.3133731337291522d6@helpscout.net>: mongo_helpscout_delivery transport output: Pushed message 1YC0iI-0002ci-ML to Mongo.
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML => support.1.3133731337291522d6 <support.344352.55fjw31337ffj322@helpscout.net> R=catch_helpscout_mongo T=mongo_helpscout_delivery QT=5s
+2015-01-16 06:49:03 [10154] 1YC0iI-0002ci-ML Completed QT=5s
+2015-01-16 06:49:04 [10167] 1YC0iO-0002dz-8x <= SRS0=mvUZ=CD=somewhere.com=support@bounce.fakeserver.net H=p3plsmtp22-06.prod.phx3.fakeserver.net [777.178.777.63] I=[10.0.0.115]:25 P=esmtp S=4295 id=201501160649.31337.Rh031733@i7.bluehost.com T="Here's a new test topic!"
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x => tickets <support.12098.53j4w3533df31337@helpscout.net> R=file_router T=local_file_delivery QT=0s
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x <support.1.3133731337291522d6@helpscout.net>: rmq_helpscout_delivery transport output:           RMQ IP: localhost
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x => support.1.3133731337291522d6 <support.12098.53j4w3533df31337@helpscout.net> R=catch_helpscout T=rmq_helpscout_delivery QT=0s
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x <support.1.3133731337291522d6@helpscout.net>: mongo_helpscout_delivery transport output: Pushed message 1YC0iO-0002dz-8x to Mongo.
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x => support.1.3133731337291522d6 <support.12098.53j4w3533df31337@helpscout.net> R=catch_helpscout_mongo T=mongo_helpscout_delivery QT=0s
+2015-01-16 06:49:04 [10168] 1YC0iO-0002dz-8x Completed QT=0s
